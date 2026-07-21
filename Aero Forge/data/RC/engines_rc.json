@@ -1,0 +1,56 @@
+[
+    {
+        "name":"1806 Brushless",
+        "type":"Brushless",
+        "kv":2300,
+        "power":250,
+        "cells":"3S",
+        "thrust":650
+    },
+    {
+        "name":"2212 Brushless",
+        "type":"Brushless",
+        "kv":1000,
+        "power":350,
+        "cells":"3S",
+        "thrust":900
+    },
+    {
+        "name":"2216 Brushless",
+        "type":"Brushless",
+        "kv":1400,
+        "power":500,
+        "cells":"4S",
+        "thrust":1200
+    },
+    {
+        "name":"3536 Brushless",
+        "type":"Brushless",
+        "kv":900,
+        "power":850,
+        "cells":"4S",
+        "thrust":2400
+    },
+    {
+        "name":"4250 Brushless",
+        "type":"Brushless",
+        "kv":800,
+        "power":1200,
+        "cells":"6S",
+        "thrust":3500
+    },
+    {
+        "name":"64mm EDF",
+        "type":"EDF",
+        "power":850,
+        "cells":"4S",
+        "thrust":1600
+    },
+    {
+        "name":"70mm EDF",
+        "type":"EDF",
+        "power":1500,
+        "cells":"6S",
+        "thrust":2600
+    }
+]

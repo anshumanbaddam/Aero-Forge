@@ -1,0 +1,85 @@
+{
+  "fighter": [
+    {
+      "name": "EDF Jet",
+      "category": "edf",
+      "wingspan": 0.95,
+      "length": 1.15,
+      "height": 0.28,
+      "wingArea": 0.22,
+      "emptyWeight": 2.4,
+      "maxTakeoffWeight": 3.1,
+      "material": "EPO Foam",
+      "airfoil": "MH45",
+      "engine": "70mm EDF",
+      "crew": 0,
+      "aspectRatio": 4.1
+    },
+    {
+      "name": "Sport Plane",
+      "category": "sport",
+      "wingspan": 1.6,
+      "length": 1.3,
+      "height": 0.38,
+      "wingArea": 0.48,
+      "emptyWeight": 3.2,
+      "maxTakeoffWeight": 4.4,
+      "material": "Balsa Wood",
+      "airfoil": "NACA 2412",
+      "engine": "Brushless 4250 800KV",
+      "crew": 0,
+      "aspectRatio": 5.33
+    }
+  ],
+
+  "airliner": [
+    {
+      "name": "Trainer Plane",
+      "category": "trainer",
+      "wingspan": 1.4,
+      "length": 1.1,
+      "height": 0.35,
+      "wingArea": 0.42,
+      "emptyWeight": 2.6,
+      "maxTakeoffWeight": 3.5,
+      "material": "Foam Board",
+      "airfoil": "Clark Y",
+      "engine": "Brushless 3536 900KV",
+      "crew": 0,
+      "aspectRatio": 4.67
+    }
+  ],
+
+  "uav": [
+    {
+      "name": "FPV Drone",
+      "category": "drone",
+      "wingspan": 0.28,
+      "length": 0.28,
+      "height": 0.09,
+      "wingArea": 0.06,
+      "emptyWeight": 0.55,
+      "maxTakeoffWeight": 0.9,
+      "material": "Carbon Fiber",
+      "airfoil": "N/A",
+      "engine": "2207 Brushless",
+      "crew": 0,
+      "aspectRatio": 1.31
+    },
+    {
+      "name": "Flying Wing",
+      "category": "wing",
+      "wingspan": 1.2,
+      "length": 0.55,
+      "height": 0.18,
+      "wingArea": 0.31,
+      "emptyWeight": 1.6,
+      "maxTakeoffWeight": 2.3,
+      "material": "EPP Foam",
+      "airfoil": "MH60",
+      "engine": "Brushless 2216 1400KV",
+      "crew": 0,
+      "aspectRatio": 4.65
+    }
+  ]
+}

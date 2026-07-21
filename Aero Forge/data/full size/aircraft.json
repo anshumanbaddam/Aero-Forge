@@ -1,0 +1,90 @@
+{
+  "fighter": [
+    {
+      "name": "F-16 Fighting Falcon",
+      "wingspan": 9.96,
+      "length": 15.06,
+      "height": 4.88,
+      "wingArea": 27.87,
+      "emptyWeight": 9207,
+      "maxTakeoffWeight": 19200,
+      "aspectRatio": 3.56,
+      "crew": 1,
+      "mission": "Multirole Fighter",
+      "material": "Aluminum Alloy + Composite",
+      "engine": "Single Turbofan",
+      "engineCount": 1,
+      "airfoil": "NACA 64A204"
+    },
+    {
+      "name": "F-22 Raptor",
+      "wingspan": 13.56,
+      "length": 18.9,
+      "height": 5.08,
+      "wingArea": 78.04,
+      "emptyWeight": 19700,
+      "maxTakeoffWeight": 38000,
+      "aspectRatio": 2.36,
+      "crew": 1,
+      "mission": "Air Superiority Fighter",
+      "material": "Titanium + Composite",
+      "engine": "Twin Turbofan",
+      "engineCount": 2,
+      "airfoil": "Modified Supercritical"
+    }
+  ],
+
+  "airliner": [
+    {
+      "name": "Boeing 737-800",
+      "wingspan": 35.8,
+      "length": 39.5,
+      "height": 12.5,
+      "wingArea": 124.6,
+      "emptyWeight": 41413,
+      "maxTakeoffWeight": 79015,
+      "aspectRatio": 10.29,
+      "crew": 2,
+      "mission": "Passenger Transport",
+      "material": "Aluminum Alloy",
+      "engine": "Twin High-Bypass Turbofan",
+      "engineCount": 2,
+      "airfoil": "Supercritical"
+    },
+    {
+      "name": "Airbus A320",
+      "wingspan": 35.8,
+      "length": 37.57,
+      "height": 11.76,
+      "wingArea": 122.6,
+      "emptyWeight": 42600,
+      "maxTakeoffWeight": 79000,
+      "aspectRatio": 10.45,
+      "crew": 2,
+      "mission": "Passenger Transport",
+      "material": "Aluminum + Composite",
+      "engine": "Twin High-Bypass Turbofan",
+      "engineCount": 2,
+      "airfoil": "Supercritical"
+    }
+  ],
+
+  "uav": [
+    {
+      "name": "MQ-9 Reaper",
+      "wingspan": 20.12,
+      "length": 11.0,
+      "height": 3.81,
+      "wingArea": 36.0,
+      "emptyWeight": 2223,
+      "maxTakeoffWeight": 4760,
+      "aspectRatio": 11.24,
+      "crew": 0,
+      "mission": "Reconnaissance / Strike",
+      "material": "Composite",
+      "engine": "Turboprop",
+      "engineCount": 1,
+      "airfoil": "High-Lift UAV Airfoil"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Aero Forge</title>
+
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div>
+        <h1>Aero Forge</h1>
+
+        <p>Aircraft Concept Design Suite</p>
+      </div>
+    </div>
+
+    <div id="startupScreen">
+      <h2>Choose Design Scale</h2>
+
+      <label class="radioOption">
+
+    <input
+        type="radio"
+        name="scale"
+        value="full"
+        checked>
+
+    <span>Full-Scale Aircraft</span>
+
+</label>
+
+<label class="radioOption">
+
+    <input
+        type="radio"
+        name="scale"
+        value="rc">
+
+    <span>RC / Hobby Aircraft</span>
+
+</label>
+
+      <button id="continueButton">Continue →</button>
+    </div>
+
+    <div id="mainApp" style="display: none">
+      <div class="modeContainer">
+        <label> Mode </label>
+
+        <select id="mode">
+          <option value="reference">Aircraft Database</option>
+
+          <option value="dimension">Design Calculator</option>
+
+          <option value="builder">Concept Generator</option>
+
+          <option value="flight">Flight Analysis</option>
+        </select>
+      </div>
+
+      <div id="content"></div>
+    </div>
+
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

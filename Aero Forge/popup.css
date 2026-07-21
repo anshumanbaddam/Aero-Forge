@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 420px;
+
+  background: #101820;
+
+  color: white;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 18px;
+}
+
+.header {
+  margin-bottom: 24px;
+}
+
+.header h1 {
+  font-size: 28px;
+
+  color: #48b2ff;
+}
+
+.header p {
+  color: #bfc7d5;
+
+  font-size: 13px;
+}
+
+#startupScreen {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 16px;
+}
+
+#startupScreen h2 {
+  margin-bottom: 6px;
+}
+
+.radioOption {
+
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 14px;
+  background: #182331;
+  padding: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+.radioOption:hover {
+  background: #223244;
+}
+
+.radioOption input {
+
+  margin: 0;
+  transform: scale(1.15);
+
+}
+
+.radioOption span {
+
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  overflow-wrap: break-word;
+  word-break: break-word;
+
+}
+
+button {
+  margin-top: 12px;
+
+  background: #2e86de;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 10px;
+
+  padding: 14px;
+
+  font-size: 17px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3b98f4;
+}
+
+.modeContainer {
+  margin-bottom: 18px;
+}
+
+.modeContainer label {
+  display: block;
+
+  margin-bottom: 6px;
+}
+
+select {
+  width: 100%;
+
+  padding: 10px;
+
+  border-radius: 8px;
+
+  border: none;
+
+  background: #1b2636;
+
+  color: white;
+}
+
+#content {
+  margin-top: 18px;
+}
+
+.sectionTitle {
+  margin-bottom: 15px;
+}
+
+.outputBox {
+  margin-top: 18px;
+
+  background: #182331;
+
+  border-radius: 10px;
+
+  padding: 15px;
+
+  white-space: pre-wrap;
+
+  line-height: 1.5;
+}
+.formGroup {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 6px;
+
+  margin-bottom: 14px;
+}
+
+.formRow {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 12px;
+}
+
+input {
+  width: 100%;
+
+  padding: 10px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #1b2636;
+
+  color: white;
+}
+
+label {
+  font-size: 14px;
+}
